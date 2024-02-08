@@ -1,0 +1,8 @@
+---
+- name: creating motd
+  hosts: all
+  collections:
+    - rhel.user
+  roles:
+    - rhel.user.newuser      
+
