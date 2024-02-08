@@ -5,4 +5,4 @@
     - name: copy the content with banner
       ansible.builtin.copy:
         content: "{{CONTENT}}"
-        dest: "{{FILE}}""
+        dest: "{{FILE}}"
